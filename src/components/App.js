@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App" id="main">
       // Do not alter the main div
-     <p id="para">{showParagraph}</p>
+     <p>{showParagraph}</p>
      <button id="click" onClick={showPara} >Show Paragraph</button>
     </div>
   );
